@@ -39,7 +39,7 @@ namespace task13
             double LazimOlanYanacaq = yol * FuelFor1Km;
             if (LazimOlanYanacaq<CurrentFuel)
             {
-                Console.WriteLine("Mashinda kifayet qeder benzin var.Bakda qalan yanacaq miqdari : "+(CurrentFuel-LazimOlanYanacaq)+"L");
+                Console.WriteLine("Mashinda kifayet qeder benzin var.Teyin olunmush menteqeye getdikden sonra bakda qalacaq yanacaq miqdari : "+(CurrentFuel-LazimOlanYanacaq)+"L");
             }
             else
             {
